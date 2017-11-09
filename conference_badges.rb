@@ -19,7 +19,8 @@ end
 
 def printer
   attendees.length.times do
-    puts batch_badge_creator
-    puts assign_rooms
+    batch_badge_creator.each do |attendee|
+      puts attendee
+    end
   end
 end
