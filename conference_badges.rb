@@ -1,4 +1,5 @@
 def badge_maker(name)
+  badgeArr = []
   return "Hello, my name is #{name}"
 end
 
