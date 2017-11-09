@@ -22,4 +22,5 @@ def printer(attendees)
   firstBatch.each do |badges|
     puts badges
   end
+  secondBatch = assign_rooms(attendees)
 end
