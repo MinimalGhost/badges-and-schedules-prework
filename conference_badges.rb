@@ -17,6 +17,6 @@ def assign_rooms(attendees)
   return batchAssigner
 end
 
-def printer
+def printer(attendees)
 
 end
