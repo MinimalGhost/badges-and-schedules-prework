@@ -1,7 +1,5 @@
 def badge_maker(name)
-  badgeArr = []
-  badgeArr.push("Hello, my name is #{name}")
-  return badgeArr[0] 
+  return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(attendees)
