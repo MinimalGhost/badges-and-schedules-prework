@@ -1,3 +1,3 @@
-def badge_maker(array)
+def badge_maker(names)
   
 end
