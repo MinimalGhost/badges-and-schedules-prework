@@ -14,5 +14,5 @@ def assign_rooms(attendees)
   attendees.each_with_index do |name, index|
     batchAssigner.push("Hello, #{name}! You'll be assigned to room #{index}!")
   end
-
+  return batchAssigner
 end
