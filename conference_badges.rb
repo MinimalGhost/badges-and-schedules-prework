@@ -17,7 +17,7 @@ def assign_rooms(attendees)
   return batchAssigner
 end
 
-def printer(attendees)
+def printer
   attendees.length.times do
     puts batch_badge_creator
     puts assign_rooms
