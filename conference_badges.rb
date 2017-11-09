@@ -20,6 +20,6 @@ end
 def printer(attendees)
   firstBatch = batch_badge_creator(attendees)
   firstBatch.each do |greetings|
-
+    puts greetings
   end
 end
