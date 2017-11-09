@@ -18,7 +18,8 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  batch_badge_creator.each_line do |element|
-    puts element
+  attendees.length.times do
+    puts batch_badge_creator
+    puts assign_rooms
   end
 end
